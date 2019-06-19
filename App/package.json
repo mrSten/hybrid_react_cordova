@@ -1,0 +1,24 @@
+{
+  "name": "Etour1",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-geolocated": "^2.3.0",
+    "react-google-maps": "^9.4.5",
+    "react-onsenui": "^1.10.0",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && robocopy .\\build ..\\www /MIR",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "onsenui": "^2.9.2",
+    "react-onsenui": "^1.10.0"
+  }
+}

@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.toolbarContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.center {
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+}
+
+.right{
+  padding-top: 10px;
+  margin-top: 10px;
+  background-image: url('./images/account.JPG');
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+  width: 35px;
+  height: 35px;
+}
+.tips-container{
+  height: 100%;
+  width: 100%;
+}
+.map-container{
+  height: 100%;
+  width: 100%;
+}
+
+.cameraButton{
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+
+.camera-container{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+#myImage{
+
+}
+
+/* item in list*/
+
+.item-container{
+  height: 95px;
+  width: 100%;
+  display: flex;
+
+}
+.leftItem{
+  background: url('./images/colloseum.JPG') no-repeat ;
+  height: 100%;
+  width: 50%;
+}
+.rightItem{
+  height: 100%;
+  padding-left: 5px;
+  width: 50%;
+  align-self: flex-end;
+
+}
+
+/*chatbot page*/
+.chatbot-container{
+
+  height: 100%;
+  width: 100%;
+  background-color: green;
+}
+.messages-container{
+  background-color: white;
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.messageBar{
+  background-color: cornsilk;
+  height: 10%;
+  width: 100%;
+}
+.left-message{
+  padding: 8px;
+  margin-top: 3px;
+  border-radius: 25px;
+ width: 50%;
+ height: 40px;
+ background-color: gainsboro;
+}
+.right-message{
+  padding: 8px;
+  margin-top: 3px;
+  border-radius: 25px;
+  width: 50%;
+  height: 40px;
+  align-self: flex-end;
+  background-color: fuchsia;
+}
+
+/*Account page */
+.account-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  background-color: orange;
+}
+.account-info-container{
+  padding-top: 10px;
+}
+.list-item__thumbnail{
+background: url('./images/profile-picture-placeholder1.JPG') ;
+}
+.alternatives-container{
+
+}
